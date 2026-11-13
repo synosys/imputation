@@ -16,22 +16,6 @@ Start with the "interactive experiment tree" (https://synosys.github.io/imputati
 
 These labels identify the recorded data source, not a particular hardware model. The historical RF work uses HR and resting-HR channels (3000/3001/3002). Its strict gate can be passed on any one core channel. The temporal studies model HR sequences and use their own adequate-day rules; see [cohort definitions](reports/results_reference.md#cohorts).
 
-## Experimental work tree
-
-Numbers below are **test AUROCs**. Repeated-holdout results are means; the saved Lab model has one split. Arrows show how the work developed, not matched comparisons between every connected experiment. MR means MultiRocket, including the summary features used in that experiment. B40, R1a, and P40 name feature blocks; their definitions are in the [model and experiment names](reports/results_reference.md#model-and-experiment-names).
-
-[![Research Atlas — interactive experiment tree preview](docs/experiment-tree-preview.svg)](https://mol2people.github.io/imputation/)
-
-**[Open the interactive experiment tree](https://mol2people.github.io/imputation/)** · [View HTML source](docs/index.html)
-
-Explore experiments by opening branches, selecting results, and scrubbing through **dates or experiment numbers**. The viewer supports touch dragging, pinch-to-zoom, and automatic branch expansion.
-
-The preview is static because GitHub READMEs cannot run interactive JavaScript. The interactive viewer is served through GitHub Pages. Tree edges describe methodological development, not necessarily matched comparisons.
-
-*If the interactive link is not yet live, enable GitHub Pages in repository Settings → Pages → Deploy from a branch → `main` / `docs`.*
-
-The [full experiment index](learnings/experiment_lineage_worktree.md) links the code and outputs, including feature selection, informative recording, day-level aggregation, and the broader 50/50 source experiments. The [results reference](reports/results_reference.md) gives the split designs and numerical tables.
-
 ## What the experiments show
 
 ### Within-day sequences
